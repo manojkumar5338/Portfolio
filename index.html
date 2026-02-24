@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>potfolio</title>
+  <link rel="stylesheet" href="./stlye.css">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav id="navbar-example2" class="navbar bg-black text-white px-3  potfolio-nav">
+    <a class="navbar-brand text-white fw-bold" href="#">MANOJ KUMAR H V</a>
+    <ul class="nav nav-pills m-2 align-items-center w-100%">
+      <li class="nav-item ">
+        <a class="nav-link" href="#scrollspyHeading1">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Project</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading3">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading4">Training & Project Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading5">Connect</a>
+      </li>
+
+    </ul>
+    <div>
+
+    </div>
+    <div>
+      <button type="button" class="btn btn-primary m-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        sign up
+      </button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+        sign in
+      </button>
+
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <h4 id="scrollspyHeading1" class="text-center fw-bold">About</h4>
+    <div class=" d-flex justify-content-around align-items-center  text-white about-sec bg-black p-3 ">
+      <div class=" col-6 py-6 dada-sec  ">
+        <h1 class="mb-6"> MANOJ KUMAR H V </h1>
+        <h3 class="fs-5">Junior Web Developer | Frontend . Backend</h3>
+        <button class="btn bg-primary text-white w-75 my-2 mb-4 mt-2"><a class="btn"
+            href="MANOJ_KUMARHV_Resume_3.pdf" download
+            onclick="console.log('Resume Downloaded')" class="btn btn-primary download-btn">
+            Download CV
+          </a></button>
+        <p>I am a motivated Frontend Web Developer (Fresher) with a strong foundation in HTML, CSS, JavaScript, and
+          Bootstrap.
+          I enjoy building clean, responsive, and user-friendly websites.
+          I am eager to learn modern frameworks and contribute to real-world projects while continuously improving my
+          skills.</p>
+        <div class="social-media d-flex">
+          <a class="fs-1 me-3 text-danger" href="mailto:manojkumarhv3@gmail.com"><i class="bi bi-envelope"></i></a>
+          <a class="fs-1 me-3  text-primary" href="https://www.linkedin.com/in/manoj-kumar-hv-aa180126b"><i
+              class="bi bi-linkedin"></i></a>
+          <a class="fs-1 me-3  text-danger" href="https://github.com/manojkumar5338
+          "><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="col-6 profile-sec m-4">
+        <div class="profile-wrapper">
+          <span class="orbit orbit-1"></span>
+          <span class="orbit orbit-2"></span>
+
+          <div class="profile-image">
+            <img src="./8251a044-44ab-4069-9771-45c75537f791-removebg-preview.png" alt="Manoj Kumar Web Developer">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <section id="projects" class="projects-section mt-4 px-3 ">
+      <h2 id="scrollspyHeading2" class="section-title mt-0">Projects</h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="https://static.thearcweb.com/images/PROD/PROD-94d963ea-d966-47bf-a6a8-60518888a33e.jpeg"
+            alt="Food App">
+          <div class="project-content">
+            <h3>Swiggy Clone (UI)</h3>
+            <p>
+              Responsive food ordering website with modern UI, reusable components,
+              and mobile-first design.
+            </p>
+
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/manojkumar5338" class="btn-outline">GitHub</a>
+              <a href="https://swiggy-clone-ui-sigma.vercel.app" class="btn btn-primary" target="_blank"
+                rel="noopener noreferrer">
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D5612AQFaII5dbQ8rEw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1706873328047?e=2147483647&v=beta&t=-Fmq9K62vYo6CwkiH1QNdcALESIP61tMs_u4EbnNL6Q"
+            alt="Travel App">
+          <div class="project-content">
+            <h3>Learning management system</h3>
+            <p>
+              Developed a Learning Management System (LMS) web application designed to provide an interactive platform
+              for online learning and course management.
+            </p>
+
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Bootstrap</span>
+              <span>JavaScript</span>
+              <span>React-JS</span>
+              <span>MongoDB</span>
+              <span>Python</span>
+              <span>Flask</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/manojkumar5338" class="btn-outline">GitHub</a>
+              <a href="https://learn-in-to-to.vercel.app" class="btn btn-primary" target="_blank"
+                rel="noopener noreferrer">
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1627873649417-c67f701f1949" alt="Netflix Clone">
+          <div class="project-content">
+            <h3>Netflix Clone (UI)</h3>
+            <p>
+              Netflix homepage clone focusing on layout accuracy, responsiveness,
+              and modern UI practices.
+            </p>
+
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/manojkumar5338" class="btn-outline">GitHub</a>
+              <a href="https://netflix-clone-ui-navy.vercel.app/" class="btn btn-primary" target="_blank"
+                rel="noopener noreferrer">
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <img src="https://i.ytimg.com/vi/MIYQR-Ybrn4/maxresdefault.jpg" alt="YouTube Clone">
+          <div class="project-content">
+            <h3>Whether App</h3>
+            <p>
+              Weather App is a responsive web application that provides real-time weather information for any location
+              worldwide.
+            </p>
+
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/manojkumar5338" class="btn-outline">GitHub</a>
+              <a href="https://whether-app-sand.vercel.app" class="btn btn-primary" target="_blank"
+                rel="noopener noreferrer">
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <section id="scrollspyHeading3" class="skills-section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-grid">
+
+        <!-- Frontend Skills -->
+        <div class="skill-card">
+          <h3><i class="bi bi-code-slash"></i> Frontend Development</h3>
+
+          <div class="skill">
+            <span>HTML5 / CSS3</span>
+            <div class="bar">
+              <div class="fill" style="width:90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>JavaScript (ES6+)</span>
+            <div class="bar">
+              <div class="fill" style="width:80%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>Bootstrap / Responsive Design</span>
+            <div class="bar">
+              <div class="fill" style="width:85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span>UI / UX Design Principles</span>
+            <div class="bar">
+              <div class="fill" style="width:75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="skill-card">
+          <h3><i class="bi bi-server"></i> Backend & APIs</h3>
+
+          <ul>
+            <li>Server-side fundamentals</li>
+            <li>RESTful API concepts</li>
+            <li>CRUD operations</li>
+            <li>Database basics (SQL / NoSQL)</li>
+            <li>Authentication & authorization concepts</li>
+          </ul>
+        </div>
+
+        <!-- Tools & Technologies -->
+        <div class="skill-card">
+          <h3><i class="bi bi-tools"></i> Tools & Technologies</h3>
+
+          <ul>
+            <li>Git & GitHub (version control)</li>
+            <li>VS Code</li>
+            <li>Chrome DevTools</li>
+            <li>NPM & package management</li>
+            <li>Basic deployment knowledge</li>
+          </ul>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-card">
+          <h3><i class="bi bi-people"></i> Soft Skills</h3>
+
+          <ul>
+            <li>Clear communication</li>
+            <li>Team collaboration</li>
+            <li>Problem-solving mindset</li>
+            <li>Adaptability & continuous learning</li>
+            <li>Time management</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="scrollspyHeading4" class="Training & Project Experience text-white mt-4">
+
+
+      <div class="experience-card">
+        <h2 class="section-title  ">Training & Project Experience</h2>
+        <h3>Python Full Stack Developer – Course</h3>
+        <span class="experience-org">
+          Java Home Cloud Academy | Completed on 16 July 2025
+        </span>
+
+        <p class="experience-desc">
+          Completed an intensive Python Full Stack Development training program
+          with hands-on experience in building responsive frontend applications
+          and scalable backend systems.
+        </p>
+
+        <h4>Technologies Used</h4>
+        <ul class="tech-list">
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>React.js</li>
+          <li>Python, Flask</li>
+          <li>REST API Development</li>
+          <li>MongoDB</li>
+          <li>Git & GitHub</li>
+        </ul>
+
+        <h4>Projects Completed</h4>
+        <ul class="project-list">
+          <li><strong>Swiggy Clone</strong> – Food delivery frontend application</li>
+          <li><strong>Learning Management System (LMS)</strong> – Full stack educational platform</li>
+          <li><strong>Netflix Clone</strong> – Responsive UI with modern layout</li>
+          <li><strong>AI Cat Facts App</strong> – API-based application</li>
+          <li><strong>Weather App</strong> – Real-time weather data using external APIs</li>
+        </ul>
+
+        <h4>Certification</h4>
+        <p class="cert-text">
+          📜 Certified in <strong>Python Full Stack Development</strong> from
+          <strong>Java Home Cloud Academy</strong>
+        </p>
+
+        <!-- Optional certificate button -->
+        <a href="MANOJ KUMAR HV COURSE COMPLETION CERTIFICATE.pdf" target="_blank" class="cert-btn">
+          View Certificate
+        </a>
+      </div>
+    </section>
+
+
+
+
+    <section id="scrollspyHeading5" class="connect-section">
+      <h2 class="section-title">Let’s Connect</h2>
+
+      <p class="connect-subtext">
+        I’m a <strong>Python Full Stack Developer (Fresher)</strong> actively seeking
+        entry-level opportunities, internships, or project-based roles.
+        I’m passionate about learning, building real-world applications, and growing
+        as a professional developer.
+      </p>
+
+      <div class="connect-cards">
+
+        <a href="mailto:manojkumarhv3@gmail.com" class="connect-card">
+          <i class="bi bi-envelope-fill"></i>
+          <span>Email</span>
+          <p>manojkumarhv3@gmail.com</p>
+        </a>
+
+        <a href="https://www.linkedin.com/" target="_blank" class="connect-card">
+          <i class="bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+          <p>View Profile</p>
+        </a>
+
+        <a href="https://github.com/" target="_blank" class="connect-card">
+          <i class="bi bi-github"></i>
+          <span>GitHub</span>
+          <p>View Projects</p>
+        </a>
+
+      </div>
+
+      <a href="Manoj_Kumar_Resume.pdf" download class="resume-btn">
+        Download Resume
+      </a>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
